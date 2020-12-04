@@ -113,7 +113,7 @@
     opacity: 0;
     transition: all ease-in-out 0.3s;
     transition-delay: 0.2s;
-    background: var(--editor-pannel-bgcolor);
+    background: var(--editor-panel-bgcolor);
     transform: translate(100%, -50%);
 
     &.isVisible {

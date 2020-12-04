@@ -12,7 +12,7 @@ interface IProps {
   onSelect: (arg: IComponent) => void;
 }
 
-export const Pannel: React.FC<IProps> = ({
+export const Panel: React.FC<IProps> = ({
   visible,
   onSelect,
   onOpen,

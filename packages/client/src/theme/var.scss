@@ -1,8 +1,8 @@
 :global {
   body {
-    --editor-primary-color: #ff0064;
+    --editor-primary-color: #5572fd;
     --editor-main-bgcolor: #f2f3f4; // 编辑器主题背景色
-    --editor-pannel-bgcolor: #fff; // 编辑器面板背景色
+    --editor-panel-bgcolor: #fff; // 编辑器面板背景色
     --editor-page-preview-pannel-width: 375px; // 编辑器页面预览编辑区域宽度
     --editor-border-color: #d9d9d9; // 编辑器边框颜色
     --editor-text-color-primary: rgba(0, 0, 0, 0.85); // 编辑器主要字体颜色
@@ -31,9 +31,9 @@
 
   body.dark {
     // 暗黑主题
-    --editor-primary-color: #ff0064;
+    --editor-primary-color: #5572fd;
     --editor-main-bgcolor: #282c35; // 编辑器主题背景色
-    --editor-pannel-bgcolor: #363c48; // 编辑器面板背景色
+    --editor-panel-bgcolor: #363c48; // 编辑器面板背景色
     --editor-page-preview-pannel-width: 375px; // 编辑器页面预览编辑区域宽度
     // --editor-border-color: rgba(178, 186, 194, 0.15); // 编辑器边框颜色
     --editor-text-color-primary: rgba(

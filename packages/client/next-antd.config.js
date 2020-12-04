@@ -50,11 +50,11 @@ module.exports = (nextConfig = {}) => ({
         }
       };
 
-      config.module.rules.push({
-        test: /\.less$/,
-        include: /node_modules/,
-        use: cssLoaderConfig(config, antdLessConfig)
-      });
+      // config.module.rules.push({
+      //   test: /\.less$/,
+      //   include: /node_modules/,
+      //   use: cssLoaderConfig(config, antdLessConfig)
+      // });
 
       // for antd less in server (yarn build)
       if (isServer) {
@@ -76,10 +76,10 @@ module.exports = (nextConfig = {}) => ({
           ...(typeof rawExternals[0] === 'function' ? [] : rawExternals)
         ];
 
-        config.module.rules.unshift({
-          test: antdStyles,
-          use: 'null-loader'
-        });
+        // config.module.rules.unshift({
+        //   test: antdStyles,
+        //   use: 'null-loader'
+        // });
       }
 
       if (typeof nextConfig.webpack === 'function') {

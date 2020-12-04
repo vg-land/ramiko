@@ -6,7 +6,7 @@ import { InfoCircleOutlined } from '@ant-design/icons';
 import { PageProvider } from 'api/page';
 import { Mode, IComponent, IPageSetting } from './type';
 import { Header } from './components/Header';
-import { Pannel } from './components/Pannel';
+import { Panel } from './components/Panel';
 import { Preview } from './components/Preview';
 import { Editor as PropsEditor } from './components/Editor';
 import style from './index.module.scss';
@@ -171,7 +171,7 @@ export const Editor: React.FC<IProps> = ({
             componentPannelVisible ? style.isVisible : false
           )}
         >
-          <Pannel
+          <Panel
             visible={componentPannelVisible}
             onOpen={() => setComponentPannelVisible(true)}
             onSelect={component => {
